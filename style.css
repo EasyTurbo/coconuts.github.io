@@ -1,0 +1,453 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+	display: none;
+}
+
+/*nav*/
+.nav-color{
+	background-color:rgba(51,102,51,.7);
+}
+
+/*body*/
+.header {
+	/* The image used */
+	background-image: url('img/trees.jpg');
+
+	/* Full height */
+	height: 100vh; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.title-block{
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.h3-format{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.h1-format{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 8em;
+	line-height: .85em;
+}
+
+.format{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+.knockout{
+	width: 100%;
+	color:black;
+	mix-blend-mode: lighten;
+	background-color: rgba(244,220,211, .8);
+}
+
+.pad-top{
+	padding-top: 20px;
+}
+
+.pad-bottom{
+	padding-bottom: 20px;
+}
+
+.main {
+	/* The image used */
+	background-color: cyan;
+
+	/* Full height */
+	height: 115vh; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+/*	display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.main-text{
+	text-align: center;
+}
+
+.h2-format{
+	font-size: 3em;
+	padding-top: 120px;
+}
+
+.h2-format-padbot{
+	font-size: 3em;
+	padding-top: 20px;
+
+}
+
+.col-format{
+	padding-top:3em;
+	text-align: center;
+}
+
+.card{
+	background-color: cyan;
+	border:none;
+	height: 350px;
+}
+
+.card-image{
+	background-color: cyan;
+	object-fit: cover;
+	border: 2px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #e88c13;
+	height: 350px;
+	width: 100%;
+	opacity: .7;
+}
+
+.card-image:hover{
+	opacity: 1;
+}
+
+.card-text{
+	position: relative;
+	background-color: rgba(0,255,255,.9);
+	border:2px;
+	border-color: #e88c13;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	bottom:150px;
+	color:#e88c13;
+
+}
+
+.wid{
+	width: auto;
+	height: 65vh;
+}
+
+.carousel-size{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cyan-bg{
+	color: #e88c13;
+}
+
+.quote {
+	/* The image used */
+	background-image: url(img/bunch7.jpg);
+
+	/* Full height */
+	height: 45vh; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+/*	display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.quote{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote-wrap{
+	width: 80%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.h4-format{
+	text-align: center;
+	font-size: 3em;
+	color: #e88c13;
+}
+
+.h4-format-b{
+	text-align: center;
+	font-size: 3em;
+}
+
+.p-top{
+	padding-top: 1em;
+}
+
+.pad-top-xl{
+	padding-top: 50px;
+}
+
+
+.p-bottom{
+	padding-bottom: 1em;	
+}
+
+.profile {
+	/* The image used */
+	background-color: #e88c13;
+
+	/* Full height */
+	height: 100vh; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-card{
+	width: 80%;
+	height: 80vh;
+	border-width: 10px;
+	position: relative;
+/*	border:2px; 
+	border-color: #00ffff;
+	border-style: solid;*/
+	padding: 20px;
+}
+
+.wife{
+	height: 75vh;
+	position: relative;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	border:5px;
+	border-color: cyan;
+	border-style: solid;
+}
+
+.wife-quote{
+	height: 75vh;
+	position: relative;
+	margin: 5px;
+	/*background-color: red;*/
+	padding: 0;
+}
+
+.wife-image{
+	width: 100%;
+	height: 75vh;
+	object-fit: cover;
+	padding: 0;
+	margin: 0;
+	-webkit-background-transform: translate(-25px, -25px);
+	-moz-background-transform: translate(-25px, -25px);
+	-o-background-transform: translate(-25px, -25px);
+	background-transform: translate(-25px, -25px);
+	transform: translate(-25px, -25px);
+}
+
+.wq-big{
+	position: relative;
+	width: 100%
+	background-color: green;
+	height: 10vh;
+	/*margin-top:8vh;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wq-small{
+	padding: 50px 10px 50px 10px;
+	height: 35vh;
+	width: 100%;
+
+	position: relative;
+
+
+
+}
+
+.p-outline{
+	/*padding-top: 12.5px;*/
+	/*padding-bottom: 12.5px;*/
+	border-width: 10px;
+	border:5px; 
+	border-color: #00ffff;
+	border-style: solid;
+		-webkit-background-transform: translate(25px, 25px);
+	-moz-background-transform: translate(25px, 25px);
+	-o-background-transform: translate(25px, 25px);
+	background-transform: translate(25px, 25px);
+	transform: translate(25px, 25px);
+}
+
+.wq-box{
+	width: 85%;
+	margin-bottom: 30px;
+}
+
+.p-wife-format{
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #336633;
+	-webkit-background-transform: translate(-25px, -25px);
+	-moz-background-transform: translate(-25px, -25px);
+	-o-background-transform: translate(-25px, -25px);
+	background-transform: translate(-25px, -25px);
+	transform: translate(-25px, -25px);
+	color: #e88c13;
+}
+
+.p-wife-format:first-child{
+	padding-top:25px;
+}
+
+.p-wife-format:last-child{
+	padding-bottom:25px;
+}
+
+.wq-small-box{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.h2-wife-format{
+	border-color: cyan;
+	border-style: solid;
+	border:2px;
+	padding: 30px;
+	color: #336633;
+	font-size: 2.5em;
+	background-color: cyan;
+}
+
+.movie{
+	position: relative;
+/*	padding-left: 50px;
+	padding-right: 50px;*/
+	margin-bottom: 50px;
+	/*width: 100%;*/
+/*	margin-left: 50px;
+	margin-right: 50px;*/
+/*	width: 35%;
+	height: 25vh;*/
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.movie-box{
+	width: 85%;
+	height: 25vh;
+	/*background-color: green;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.forms {
+	/* The image used */
+	background-image: url(img/beach.jpg);
+
+	/* Full height */
+	height: 100vh; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container{
+	margin-top: 30px;
+	width: 85%;
+	height: 65vh;
+	background-color: rgba(255,255,255,.9);
+}
+
+.form-head{
+	text-align: center;
+	padding-top: 3em;
+	color: #e88c13;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	margin: 10px;
+}
+
+.form-block{
+	width: 100%;
+}
+
+footer{
+	text-align: center;
+	color: #e88c13;
+}
+
+
+.form-layout{
+	width: 90%;
+
+}
